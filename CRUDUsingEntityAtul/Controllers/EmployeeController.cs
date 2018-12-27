@@ -47,7 +47,7 @@ namespace CRUDUsingEntityAtul.Controllers
             
             db.Entry(emp).State = EntityState.Deleted;
             db.SaveChanges();
-            return RedirectToAction("Index");
+            return RedirectToAction("Home");
         }
     }
 }
